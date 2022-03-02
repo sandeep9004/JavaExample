@@ -24,7 +24,8 @@ jobs:
 
     - name: Build with Gradle
       run: ./gradlew build
-      steps:
+      
+    steps:
     - name: Checkout repo
     uses: actions/checkout@v2
     with:
